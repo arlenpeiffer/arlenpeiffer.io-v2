@@ -1,5 +1,5 @@
 <script>
-	import successkid from 'images/successkid.jpg';
+	import jockjams from 'images/jockjams.jpg';
 </script>
 
 <style>
@@ -37,13 +37,13 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Hi. I’m Arlen. I help out with the internet.</title>
 </svelte:head>
 
 <h1>Great success!</h1>
 
 <figure>
-	<img alt="Success Kid" src="{successkid}">
+	<img alt="Smiley kid holding an unopened copy of Jock Jams, Volume 1 on compact disc" src="{jockjams}">
 	<figcaption>Have fun with Sapper!</figcaption>
 </figure>
 
