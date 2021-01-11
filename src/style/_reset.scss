@@ -1,0 +1,28 @@
+:global(*) {
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+:global(body),
+:global(h1),
+:global(ul),
+:global(li) {
+  margin: 0;
+}
+
+:global(ul) {
+  list-style: none;
+  padding: 0;
+}
+
+:global(a) {
+  color: inherit;
+  text-decoration: none;
+}
+
+:global(img) {
+  display: block;
+  max-width: 100%;
+}
